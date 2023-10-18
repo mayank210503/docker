@@ -27,7 +27,7 @@ on:
         with:
           context: .
           push: true
-          file: ./Dockerfile
+          file: "C:\Users\HP\composetest\Dockerfile"
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels 
 
